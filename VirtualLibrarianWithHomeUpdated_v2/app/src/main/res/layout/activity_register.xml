@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/userreg"
+    android:background="@drawable/animation_list"
+    tools:context="ltd.pvt.ujjwalgarg.virtuallibrarianwithhome.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/u_image"
+        android:src="@drawable/user"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+
+        android:inputType="text"
+
+        android:textColorHint="#e6e6e6"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:padding="13dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/u_username"
+        android:layout_below="@+id/u_image"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:textColorHint="#e6e6e6"
+        android:background="@color/colorAccent"
+        android:id="@+id/u_phone"
+        android:padding="13dp"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/u_username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#e6e6e6"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:padding="13dp"
+        android:inputType="textPassword"
+        android:textSize="15dp"
+        android:layout_marginLeft="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/u_pass"
+        android:layout_below="@+id/u_phone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u_pass"
+        android:id="@+id/show"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textSize="12dp"
+        android:text="Show Password?"
+        android:textColor="#ffff"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/u_login"
+                android:text="Register"
+                android:textColor="#e6e6e6"
+                android:background="@drawable/admin_button"
+                android:padding="13dp"
+                android:textSize="15dp"
+                android:layout_below="@id/show"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="14dp"
+                />
+
+
+
+        />
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\libs\junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\2\junit-4.12_a67b46a6e93f6358d71b4703478819785ee3875e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dc44d1c7db3e0c8c4bcaa967a9f307bce1a50671">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4143001177e7b293ae855ce5d7114d2a12ec0940\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_6db0fdbe03d10dcbb022428e4b47617ccee39bd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.0_f2db449904f600beeef6b1edb2d9390f51712ab5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_9b3af0e682ec8c1faae81fc3726296e68eaa4cd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_4cd4a56172cb6ddb6158977926ba22d28a858f16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_f6990e7365090144f6aa558924dd2310fd9c2360\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_8f52f66947f7fa38a24ae2a244d82f2ab21c4a63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_f969b87f205a9744f4c4710115c5a9c28165ab76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Naman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_ce90bbd7cd852950048538f120ae88d8e58ad21e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_1220882ac47064a7838103251a2c7da704abe1f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.0_6ac1820e2818904b0d5c3332741e649d173054ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\libs\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\2\firebase-client-android-2.5.2_8f74b9cd734d2e7466d92f9b201f911f72d24b6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_e5fbebca1aa76a16bc09eaca2a365555987e2726\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.3.0_56a4aade83f30c303601f70bfb1d50d688c54669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="266e4ac186afacc3b220a0cf8382348283b42407">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.6.0_6f5f7efcce13ba546bb3c4f1c2bb588dbc17e871\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_f3794ddde8e5e323d7a32ef35a9fca2693c8f2e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.0_e246df4b6c7bf3de7bb52ba4cac62aea7d98b616\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6786baea98e2e61ff341bb07c6c885fa9be216fb">
+        <dex dex="E:\Program\VirtualLibrarianWithHomeUpdated_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d4e8f6b04553ba57fae0b468cc3ff3db416b77fd\classes.dex" />
+    </item>
+
+</items>

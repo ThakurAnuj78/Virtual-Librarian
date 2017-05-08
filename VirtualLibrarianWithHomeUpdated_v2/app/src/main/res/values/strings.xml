@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Virtual Librarian</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hint">Search</string>
+    <string name="title_activity_bar_code_scan">BarCodeScan</string>
+</resources>

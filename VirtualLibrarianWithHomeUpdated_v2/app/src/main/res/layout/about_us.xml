@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg211"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ltd.pvt.ujjwalgarg.virtuallibrarianwithhome.About_Us">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/library"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/img"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:layout_below="@id/img"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Virtual Librarian is an application use to manage the catalog of a library. This helps to keep the records of whole transaction of the books available in the library."
+            android:id="@+id/description"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:id="@+id/line"
+            android:background="#ffff"
+            android:layout_below="@id/description"
+            android:layout_marginTop="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_design1"
+            android:layout_below="@id/line"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/l1"
+            android:gravity="center_vertical"
+
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Team"
+                android:paddingLeft="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:id="@+id/des"
+                android:textColor="#000000"/>
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l1"
+                android:layout_margin="10dp"
+                android:id="@+id/li2"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:background="@drawable/layout_design1">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anuj Singh"
+                        android:padding="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:padding="3dp"
+                        android:textSize="13dp"
+                        android:autoLink="web|email"
+                        android:text="anuj78.singh@gmail.com"/>
+                </LinearLayout>
+                    </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li2"
+                    android:id="@+id/l3"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="4dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/layout_design1"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Naman Singh"
+                            android:padding="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="3dp"
+                            android:textSize="13dp"
+                            android:autoLink="web|email"
+                            android:text="namansingh1627@gmail.com"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/l4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="4dp"
+                    android:background="@drawable/layout_design1"
+                    android:layout_below="@+id/l3">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nitin Thakur"
+                            android:padding="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="3dp"
+                            android:textSize="13dp"
+                            android:autoLink="web|email"
+                            android:text="Nitinthakur5654@gmail.com"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/l5"
+                    android:background="@drawable/layout_design1"
+                    android:layout_below="@+id/l4">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ujjwal Garg"
+                            android:padding="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="3dp"
+                            android:textSize="13dp"
+                            android:layout_marginBottom="5dp"
+                            android:autoLink="web|email"
+                            android:text="ujjwalg3@gmail.com"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+</ScrollView>

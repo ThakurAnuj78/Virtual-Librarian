@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ltd.pvt.ujjwalgarg.virtuallibrarianwithhome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/library"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity
+            android:name=".Login"
+            android:theme="@style/login" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/login" />
+        <activity
+            android:name=".AdminLogin"
+            android:theme="@style/login" />
+        <activity
+            android:name=".Splash_Screen"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeUser"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExListView"
+            android:theme="@style/AppThemeAdmin" />
+        <activity
+            android:name=".Search"
+            android:theme="@style/AppThemeAdmin" />
+        <activity
+            android:name=".BookDetails"
+            android:theme="@style/notitlebar1" />
+        <activity
+            android:name=".ScanBarcodeActivity"
+            android:theme="@style/AppThemeAdmin" />
+        <activity
+            android:name=".BookIssue"
+            android:theme="@style/noTitleBar" />
+        <activity
+            android:name=".AdminHome"
+            android:theme="@style/AppThemeAdmin" />
+        <activity
+            android:name=".BookReturn"
+            android:theme="@style/noTitleBar" />
+        <activity
+            android:name=".MyProfile"
+            android:label="My Profile"
+            android:theme="@style/AppThemeAdmin"></activity>
+        <activity
+            android:name=".AppRating"
+            android:theme="@style/noTitleBar" />
+
+        <service android:name=".NotificationListener" />
+
+        <activity
+            android:name=".Wishlist"
+            android:label="Wishlist"
+            android:theme="@style/AppThemeAdmin" />
+        <activity
+            android:name=".History"
+            android:label="History"
+            android:theme="@style/AppThemeAdmin" />
+        <activity
+            android:name=".CurrentlyBooksIssued"
+            android:label="Shelf"
+            android:theme="@style/AppThemeAdmin" />
+        <activity android:name=".About_Us"
+            android:theme="@style/login"></activity>
+        <receiver android:name=".NotificationReceiver"/>
+    </application>
+
+</manifest>

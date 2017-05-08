@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_circle_indicator_stroke_color"
+    android:scrollbarStyle="insideOverlay"
+ tools:context="ltd.pvt.ujjwalgarg.virtuallibrarianwithhome.BookDetails">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingBottom="16dp">
+
+  <LinearLayout
+      android:id="@+id/linear1"
+      android:background="@android:color/white"
+      android:layout_width="match_parent"
+      android:gravity="center_horizontal"
+      android:layout_height="wrap_content"
+      android:elevation="4dp">
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="250dp"
+       android:id="@+id/b_cover"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linear2"
+      android:elevation="4dp"
+      android:background="@android:color/white"
+      android:orientation="vertical"
+      android:layout_below="@id/linear1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingTop="6dp"
+       android:paddingBottom="6dp"
+       android:textSize="24sp"
+       android:paddingLeft="15dp"
+       android:gravity="center_vertical"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:id="@+id/b_name"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:id="@+id/b_avail"
+       android:gravity="center_vertical"
+       android:text="avail"
+       android:textSize="15sp"
+       android:paddingLeft="15dp"
+       android:paddingBottom="5dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#ffff">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Add to Wishlist?"
+       android:paddingLeft="15dp"
+       android:layout_centerVertical="true"
+       android:textSize="16dp"
+       android:id="@+id/wish_text"/>
+   <ImageButton
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:id="@+id/imgbtn"
+       android:layout_toRightOf="@id/wish_text"
+       android:layout_marginLeft="100dp"
+       android:background="@drawable/heart"
+
+       />
+   </RelativeLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linear3"
+      android:background="@android:color/white"
+      android:layout_below="@id/linear2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:orientation="vertical"
+      android:elevation="4dp">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Author"
+       android:paddingLeft="15dp"/>
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:gravity="center_vertical"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:id="@+id/b_author"
+       android:paddingLeft="15dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linear4"
+      android:background="@android:color/white"
+      android:layout_below="@id/linear3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="8dp"
+      android:orientation="vertical"
+      android:layout_marginRight="8dp"
+      android:elevation="4dp">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Publications"
+       android:paddingLeft="15dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="55dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:id="@+id/b_pub"
+       android:paddingTop="3dp"
+       android:paddingBottom="3dp"
+       android:gravity="center_vertical"
+       android:paddingLeft="15dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linear5"
+      android:background="@android:color/white"
+      android:layout_below="@id/linear4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:elevation="4dp"
+      android:orientation="vertical">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Sub-Category"
+       android:paddingLeft="15dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:id="@+id/b_subcat"
+       android:gravity="center_vertical"
+       android:paddingLeft="15dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linear6"
+      android:background="@android:color/white"
+      android:layout_below="@id/linear5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:orientation="vertical"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginBottom="10dp"
+      android:elevation="4dp">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Branch"
+       android:paddingLeft="15dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:gravity="center_vertical"
+       android:id="@+id/b_cat"
+       android:paddingLeft="15dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="Rate This Book"
+      android:id="@+id/rate_text"
+      android:layout_below="@id/linear6"
+      android:layout_centerInParent="true"
+      android:textSize="16dp"
+     />
+
+  <RatingBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/ratingBar"
+      android:layout_below="@id/rate_text"
+      android:layout_marginTop="10dp"
+      android:onClick="show"
+      android:layout_centerHorizontal="true"
+
+      />
+
+
+
+ </RelativeLayout>
+</ScrollView>

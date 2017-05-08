@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ltd.pvt.ujjwalgarg.virtuallibrarianwithhome.HomeUser">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:layout_collapseMode="parallax">
+            </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            app:layout_collapseMode="parallax"
+
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:background="#ffffff">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search By Category"
+                android:textSize="12dp"
+                android:elevation="10dp"
+
+                android:layout_weight="1"
+                android:id="@+id/but"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+
+                android:background="@drawable/button"
+
+                android:layout_marginRight="10dp"
+                />
+            <!--@color/dim_foreground_material_dark-->
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:id="@+id/search"
+                android:layout_toRightOf="@id/but"
+                android:layout_weight="3"
+                android:queryHint="@string/hint"
+                android:elevation="5dp"
+
+                android:layout_alignParentTop="true"
+                android:background="@drawable/search_view" />
+
+        </LinearLayout>
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+    <include layout="@layout/content_home_screen" />
+
+</android.support.design.widget.CoordinatorLayout>
